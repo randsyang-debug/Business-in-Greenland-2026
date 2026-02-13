@@ -44,33 +44,34 @@ import logo43 from "../Resourses/Logos/Placeholder - to be updated.png"; // komm
 //PDFS
 import pdf1 from "../Resourses/PDFs/2025_60N.pdf";
 import pdf2 from "../Resourses/PDFs/2025_Air_Greenland.pdf";
-import pdf3 from "../Resourses/PDFs/Kirk Larsen_2026_PDF Catalogue.pdf"; // kirk larsen 
-import pdf4 from "../Resources/PDFs/Arctic Import_2026_PDF Catalogue.pdf"; // arctic import
-import pdf5 from "../Resources/PDFs/Arctic Law_2026_PDF_Catalogue.pdf"; // artic law
-import pdf6 from "../Resources/PDFs/BDO_2026_PDF_Catalogue.pdf"; // BDO
-import pdf8 from "../Resources/PDFs/Gorrissen Federspiel_2026_PDF Catalogue.pdf"; // gorrissen 
+import pdf3 from "../Resourses/PDFs/Kirk_Larsen_2026_PDF.pdf"; // kirk larsen 
+import pdf4 from "../Resources/PDFs/Arctic_Import_2026_PDF.pdf"; // arctic import
+import pdf5 from "../Resources/PDFs/Arctic_Law_2026_PDF.pdf"; // artic law
+import pdf6 from "../Resources/PDFs/BDO_2026_PDF.pdf"; // BDO
+import pdf7 from "../Resources/PDFs/BWS_2026_PDF.pdf"; // BWS
+import pdf8 from "../Resources/PDFs/Gorrissen_Federspiel_2026_PDF.pdf"; // gorrissen 
 import pdf9 from "../Resourses/PDFs/2025_Greenland_Travel.pdf";
 import pdf10 from "../Resourses/PDFs/2025_Illit_Forsikringit.pdf";
 import pdf11 from "../Resourses/PDFs/2025_BMS_Magasin.pdf";
-import pdf12 from "../Resourses/PDFs/Greenland_Escape_2026_PDF_Catalogue.pdf"; // greenland escape 
+import pdf12 from "../Resourses/PDFs/Greenland_Escape_2026_PDF.pdf"; // greenland escape 
 import pdf13 from "../Resourses/PDFs/2025_Greenland_Resources.pdf";  
-import pdf14 from "../Resourses/PDFs/H.P. Entreprenørmaskiner_2026_PDF Catalogue.pdf"; // hp semler
-import pdf15 from "../Resourses/PDFs/Kalaallit Forsikring Agentur_2026_PDF_Catalogue.pdf"; // kalaallit 
-import pdf16 from "../Resourses/PDFs/Kaya_2026_PDF Catalogue.pdf"; // kaya partners
+import pdf14 from "../Resourses/PDFs/HP_Semler_2026_PDF.pdf"; // hp semler
+import pdf15 from "../Resourses/PDFs/Kalaallit_2026_PDF.pdf"; // kalaallit 
+import pdf16 from "../Resourses/PDFs/Kaya_2026_PDF.pdf"; // kaya partners
 import pdf17 from "../Resourses/PDFs/2025_NEW_Lumina.pdf";
-import pdf18 from "../Resourses/PDFs/KSMS_2026_PDF Catalogue.pdf"; // ksms
-import pdf19 from "../Resourses/PDFs/Nalik_2026_PDF Catalogue.pdf"; // nalik
-import pdf20 from "../Resourses/PDFs/POLOG_2026_PDF_Catalogue.pdf"; // polog
-import pdf21 from "../Resourses/PDFs/Qeqertalik Business Council QBC_2026_PDF Catalogue.pdf"; // qeqertalik
-import pdf22 from "../Resourses/PDFs/Boman Qujan_2026_PDF Catalogue.pdf"; // qujan arctic pr net
+import pdf18 from "../Resourses/PDFs/KSMS_2026_PDF.pdf"; // ksms
+import pdf19 from "../Resourses/PDFs/Nalik_2026_PDF.pdf"; // nalik
+import pdf20 from "../Resourses/PDFs/POLOG_2026_PDF.pdf"; // polog
+import pdf21 from "../Resourses/PDFs/QBC_2026_PDF.pdf"; // qeqertalik
+import pdf22 from "../Resourses/PDFs/Boman_Qujan_2026_PDF.pdf"; // qujan arctic pr net
 import pdf24 from "../Resourses/PDFs/2025_bank.pdf";
 import pdf26 from "../Resourses/PDFs/2025_nuna_law.pdf";
-import pdf27 from "../Resourses/PDFs/Placeholder - to be updated.pdf"; // HK transport // placeholder
-import pdf28 from "../Resourses/PDFs/Placeholder - to be updated.pdf"; // Innovation South Greenland // placeholder
-import pdf29 from "../Resourses/PDFs/Placeholder - to be updated.pdf"; // KNI // placeholder
+import pdf27 from "../Resourses/PDFs/Placeholder.pdf"; // HK transport // placeholder
+import pdf28 from "../Resourses/PDFs/Placeholder.pdf"; // Innovation South Greenland // placeholder
+import pdf29 from "../Resourses/PDFs/Placeholder.pdf"; // KNI // placeholder
 import pdf30 from "../Resourses/PDFs/2025_Sikuki.pdf";
 import pdf31 from "../Resourses/PDFs/2025_NEW_COWI.pdf";
-import pdf32 from "../Resourses/PDFs/Placeholder - to be updated.pdf"; // Kommune Kujalleq // placeholder
+import pdf32 from "../Resourses/PDFs/Placeholder.pdf"; // Kommune Kujalleq // placeholder
 import pdf36 from "../Resourses/PDFs/2025_Greenland_Business_Association_(GE).pdf";
 import pdf38 from "../Resourses/PDFs/2025_tusass.pdf";
 import pdf39 from "../Resourses/PDFs/2025_VR_Travel.pdf";
@@ -129,7 +130,7 @@ export const companies = [
     name: "Blue Water Shipping",
     logo: logo6,
     website: "https://www.bws.net/",
-    pdf: pdf6,
+    pdf: pdf7,
     type: "withmail",
     email: `thal@bws.dk?subject=PDAC ${getYear()}`,
     id: 6
