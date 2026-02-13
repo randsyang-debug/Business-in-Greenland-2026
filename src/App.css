@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Diplomacy Bold";
+  src: url("./Resourses/Font/Diplomacy-Bold.eot");
+  src: url("./Resourses/Font/Diplomacy-Bold.woff") format("woff");
+}
+body {
+  background-image: url("./Resourses/Images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  padding: 0;
+  margin: 0;
+}
+main {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  font-family: "Diplomacy Bold", Arial, sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  grid-auto-rows: 1fr;
+}
+
+.program-description{
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 7%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.program-description-section-single {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.program-description h2 {
+  font-size: .8em;
+  margin-top: 0;
+}
+
+.program-description img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 7%;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.company-card__name {
+  margin: 0 !important;
+  color: white;
+  margin: auto;
+}
+.company-card__name h2 {
+  font-family: "Diplomacy Bold", Arial, sans-serif;
+  color: black;
+  font-size: 1em;
+  height: 20px;
+}
+.company-card__img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.company-card__img img {
+  width: 100%;
+}
+.links-contanier {
+  width: 100%;
+  display: block;
+}
+.link-button {
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-family: "Diplomacy Bold", Arial, sans-serif;
+  background-color: #004288;
+}
+.half-contaner {
+  width: 30%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.regular-btn-container:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.regular-btn-container .link-button{
+  padding: 5px;
+}
+
+.full {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  color: white;
+  background-color: #004288;
+  font-size: 12px;
+  font-family: "Diplomacy Bold", Arial, sans-serif;
+  padding: 30px;
+  margin-top: 50px;
+}
+.upBtn {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  width: 50px;
+}
+@media only screen and (max-width: 645px) {
+  .company-card__name h2 {
+    font-size: 0.8em;
+  }
+  .full {
+    display: flex;
+  }
+  .half-contaner {
+    width: 100%;
+  }
+  .link-button {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

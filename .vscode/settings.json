@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/291d94e9-0779-45f2-89d6-a91e195df245/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/business-in-greenland",
+    "appService.deploySubpath": "."
+}
