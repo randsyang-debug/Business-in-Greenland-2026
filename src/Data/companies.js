@@ -45,11 +45,11 @@ import logo43 from "../Resourses/Logos/Placeholder - to be updated.png"; // komm
 import pdf1 from "../Resourses/PDFs/2025_60N.pdf";
 import pdf2 from "../Resourses/PDFs/2025_Air_Greenland.pdf";
 import pdf3 from "../Resourses/PDFs/Kirk_Larsen_2026_PDF.pdf"; // kirk larsen 
-import pdf4 from "../Resources/PDFs/Arctic_Import_2026_PDF.pdf"; // arctic import
-import pdf5 from "../Resources/PDFs/Arctic_Law_2026_PDF.pdf"; // artic law
-import pdf6 from "../Resources/PDFs/BDO_2026_PDF.pdf"; // BDO
-import pdf7 from "../Resources/PDFs/BWS_2026_PDF.pdf"; // BWS
-import pdf8 from "../Resources/PDFs/Gorrissen_Federspiel_2026_PDF.pdf"; // gorrissen 
+import pdf4 from "../Resourses/PDFs/Arctic_Import_2026_PDF.pdf"; // arctic import
+import pdf5 from "../Resourses/PDFs/Arctic_Law_2026_PDF.pdf"; // artic law
+import pdf6 from "../Resourses/PDFs/BDO_2026_PDF.pdf"; // BDO
+import pdf7 from "../Resourses/PDFs/BWS_2026_PDF.pdf"; // BWS
+import pdf8 from "../Resourses/PDFs/Gorrissen_Federspiel_2026_PDF.pdf"; // gorrissen 
 import pdf9 from "../Resourses/PDFs/2025_Greenland_Travel.pdf";
 import pdf10 from "../Resourses/PDFs/2025_Illit_Forsikringit.pdf";
 import pdf11 from "../Resourses/PDFs/2025_BMS_Magasin.pdf";
