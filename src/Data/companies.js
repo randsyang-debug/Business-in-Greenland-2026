@@ -229,7 +229,7 @@ export const companies = [
   {
     name: "Grønlandsbanken A/S",
     logo: logo24,
-    website: "https://banken.gl/da/om-os",
+    website: "https://banken.gl/en/business-customers/",
     pdf: pdf24,
     type: "withmail",
     email: `ss@banken.gl?subject=PDAC ${getYear()}`,
