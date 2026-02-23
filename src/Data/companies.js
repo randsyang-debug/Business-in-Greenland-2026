@@ -20,15 +20,15 @@ import logo19 from "../Resourses/Logos/2025_Pangaea.png";
 import logo20 from "../Resourses/Logos/POLOG_2026_Logo.jpg"; // polog
 import logo21 from "../Resourses/Logos/Qeqertalik Business Council QBC_2026_Logo.png"; // qeqertalik business council
 import logo22 from "../Resourses/Logos/Boman Qujan_2026_Logo.png"; // qujan arctic pr net
-import logo24 from "../Resourses/Logos/2025_Gronlands_Banken.png";
-import logo25 from "../Resourses/Logos/Placeholder - to be updated.png"; // hk transport // placeholder
+import logo24 from "../Resourses/Logos/2025_Gronlands_Banken.png"; 
+import logo25 from "../Resourses/Logos/HK_Transport_2026_Logo.png"; 
 import logo26 from "../Resourses/Logos/2025_Nuna_Law.png";
-import logo27 from "../Resourses/Logos/Placeholder - to be updated.png"; // innovation south greenland // placeholder
+import logo27 from "../Resourses/Logos/Innovation_South_Greenland_2026_Logo.png"; // innovation south greenland 
 import logo28 from "../Resourses/Logos/2025_Rambøll_Grønland_A_S.png";
 import logo29 from "../Resourses/Logos/2025_UP_Front_Communication_GR.png";
 import logo30 from "../Resourses/Logos/2025_Sikuki_Nuuk_Harbour.png";
 import logo31 from "../Resourses/Logos/2025_Cowi.png";
-import logo32 from "../Resourses/Logos/Placeholder - to be updated.png"; // KNI / placeholder
+import logo32 from "../Resourses/Logos/KNI_2026_Logo.png"; // KNI 
 import logo33 from "../Resourses/Logos/2025_ral-logo-red.png";
 import logo34 from "../Resourses/Logos/Kaya_2026_Logo.png"; // kaya partners 
 import logo35 from "../Resourses/Logos/Kalaallit Forsikring Agentur_2026_Logo.jpg"; // kalaallit update to new
@@ -39,7 +39,7 @@ import logo39 from "../Resourses/Logos/2025_VR_Travel.png";
 import logo40 from "../Resourses/Logos/2025_Kirklarsen.png";
 import logo41 from "../Resourses/Logos/2025_Sermeq_Helicopters_A_S.png";
 import logo42 from "../Resourses/Logos/GreenlandCopter_2026_Logo.jpg"; // greenland copter update to new
-import logo43 from "../Resourses/Logos/Placeholder - to be updated.png"; // kommune kujalleq / placeholder
+import logo43 from "../Resourses/Logos/Kommune_2026_Logo.png"; // kommune kujalleq
 
 //PDFS
 import pdf1 from "../Resourses/PDFs/2025_60N.pdf";
@@ -64,18 +64,19 @@ import pdf19 from "../Resourses/PDFs/Nalik_2026_PDF.pdf"; // nalik
 import pdf20 from "../Resourses/PDFs/POLOG_2026_PDF.pdf"; // polog
 import pdf21 from "../Resourses/PDFs/QBC_2026_PDF.pdf"; // qeqertalik
 import pdf22 from "../Resourses/PDFs/Boman_Qujan_2026_PDF.pdf"; // qujan arctic pr net
-import pdf24 from "../Resourses/PDFs/2025_bank.pdf";
+import pdf24 from "../Resourses/PDFs/Gronlandsbanken_2026_PDF.pdf"; // Gronlandsbanken
 import pdf26 from "../Resourses/PDFs/2025_nuna_law.pdf";
-import pdf27 from "../Resourses/PDFs/Placeholder.pdf"; // HK transport // placeholder
-import pdf28 from "../Resourses/PDFs/Placeholder.pdf"; // Innovation South Greenland // placeholder
-import pdf29 from "../Resourses/PDFs/Placeholder.pdf"; // KNI // placeholder
+import pdf28 from "../Resourses/PDFs/Innovation_South_Greenland_2026_PDF.pdf"; // Innovation South Greenland 
+import pdf29 from "../Resourses/PDFs/KNI_2026_PDF.pdf"; // KNI 
 import pdf30 from "../Resourses/PDFs/2025_Sikuki.pdf";
 import pdf31 from "../Resourses/PDFs/2025_NEW_COWI.pdf";
-import pdf32 from "../Resourses/PDFs/Placeholder.pdf"; // Kommune Kujalleq // placeholder
 import pdf36 from "../Resourses/PDFs/2025_Greenland_Business_Association_(GE).pdf";
-import pdf38 from "../Resourses/PDFs/2025_tusass.pdf";
+import pdf38 from "../Resourses/PDFs/Tusass_2026_PDF.pdf"; // Tusass
 import pdf39 from "../Resourses/PDFs/2025_VR_Travel.pdf";
 import pdf41 from "../Resourses/PDFs/2025_Sermeq_Helicopters.pdf";
+import pdf42 from "../Resourses/PDFs/EMJ_2026_New_PDF.pdf"; // EMJ new pdf
+import pdf43 from "../Resourses/PDFs/Ramboll_2026_PDF.pdf"; // ramboll 
+import pdf44 from "../Resourses/PDFs/RAL_2026_PDF.pdf"; // RAL Royal Arctic Line 
 import { getYear } from "../utils";
 
  
@@ -141,7 +142,7 @@ export const companies = [
     website: "https://www.danskindustri.dk/english/",
     pdf: null,
     type: "withmail",
-    email: `hbu@di.dk;jhn@di.dk?subject=PDAC ${getYear()}`,
+    email: `emmo@di.dk;jhn@di.dk?subject=PDAC ${getYear()}`,
     id: 7
   },
   {
@@ -211,7 +212,7 @@ export const companies = [
     name: "EMJ-Atcon Greenland A/S",
     logo: logo18,
     website: "https://www.emj-atcon.gl/",
-    pdf: pdf18,
+    pdf: pdf42,
     type: "withmail",
     email: `dan@emj.gl?subject=PDAC ${getYear()}`,
     id: 15
@@ -247,7 +248,7 @@ export const companies = [
     name: "Rambøll Grønland A/S",
     logo: logo28,
     website: "https://ramboll.com/contact/greenland",
-    pdf: null,
+    pdf: pdf43,
     type: "withmail",
     email: `inb@ramboll.gl?subject=PDAC ${getYear()}`,
     id: 19
@@ -283,9 +284,9 @@ export const companies = [
     name: "Royal Arctic Line A/S",
     logo: logo33,
     website: "https://www.royalarcticline.com/",
-    pdf: null,
+    pdf: pdf44,
     type: "withmail",
-    email: `nic@ral.gl?subject=PDAC ${getYear()}`,
+    email: `esb@ral.dk?subject=PDAC ${getYear()}`,
     id: 23
   },
   {
@@ -321,7 +322,7 @@ export const companies = [
     website: "https://www.tusass.gl/en/",
     pdf: pdf38,
     type: "withmail",
-    email: `nich@tusass.gl?subject=PDAC ${getYear()}`,
+    email: `mama@tusass.gl?subject=PDAC ${getYear()}`,
     id: 27
   },
   {
@@ -382,7 +383,7 @@ export const companies = [
     name: "HK Transport ApS",
     logo: logo25,
     website: "https://www.hktransport.gl/",
-    pdf: pdf27,
+    pdf: null,
     type: "withmail",
     email: `mkn@hktransport.gl?subject=PDAC ${getYear()}`,
     id: 34
@@ -390,10 +391,10 @@ export const companies = [
   {
     name: "Innovation South Greenland A/S",
     logo: logo27,
-    website: "https://wwwisg.gl/en/home/",
+    website: "https://www.isg.gl/en/home/",
     pdf: pdf28,
     type: "withmail",
-    email: `mj@isg.gl?subject=PDAC ${getYear()}`,
+    email: `info@isg.gl?subject=PDAC ${getYear()}`,
     id: 35
   },
   {
@@ -445,7 +446,7 @@ export const companies = [
     name: "Kommune Kujalleq",
     logo: logo43,
     website: "https://www.kujalleq.gl/",
-    pdf: pdf32,
+    pdf: null,
     type: "withmail",
     email: `rave@kujalleq.gl?subject=PDAC ${getYear()}`,
     id: 41
