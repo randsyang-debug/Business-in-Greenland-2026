@@ -17,7 +17,7 @@ import logo16 from "../Resourses/Logos/BDO_2026_Logo.png"; // BDO update to new
 import logo17 from "../Resourses/Logos/2025_Lumina.png";
 import logo18 from "../Resourses/Logos/EMJ Atcon_2026_Logo.png";
 import logo19 from "../Resourses/Logos/2025_Pangaea.png";
-import logo20 from "../Resourses/Logos/POLOG_2026_Logo.jpg"; // polog
+import logo20 from "../Resourses/Logos/POLOG_2026_Logo.jpg"; // polog // transparent 
 import logo21 from "../Resourses/Logos/Qeqertalik Business Council QBC_2026_Logo.png"; // qeqertalik business council
 import logo22 from "../Resourses/Logos/Boman Qujan_2026_Logo.png"; // qujan arctic pr net
 import logo24 from "../Resourses/Logos/2025_Gronlands_Banken.png"; 
@@ -31,15 +31,15 @@ import logo31 from "../Resourses/Logos/2025_Cowi.png";
 import logo32 from "../Resourses/Logos/KNI_2026_Logo.png"; // KNI 
 import logo33 from "../Resourses/Logos/2025_ral-logo-red.png";
 import logo34 from "../Resourses/Logos/Kaya_2026_Logo.png"; // kaya partners 
-import logo35 from "../Resourses/Logos/Kalaallit Forsikring Agentur_2026_Logo.jpg"; // kalaallit update to new
+import logo35 from "../Resourses/Logos/Kalaallit_2026_Logo.jpg"; // kalaallit // transparent
 import logo36 from "../Resourses/Logos/2025_Greenland_Business_Association_(GE).png";
 import logo37 from "../Resourses/Logos/2025_Nalik_Venture.png";
 import logo38 from "../Resourses/Logos/2025_Tusass.png";
 import logo39 from "../Resourses/Logos/2025_VR_Travel.png";
-import logo40 from "../Resourses/Logos/2025_Kirklarsen.png";
+import logo40 from "../Resourses/Logos/Kirk_Larsen_2026_Logo.png"; // kirk larsen // transparent
 import logo41 from "../Resourses/Logos/2025_Sermeq_Helicopters_A_S.png";
-import logo42 from "../Resourses/Logos/GreenlandCopter_2026_Logo.jpg"; // greenland copter update to new
-import logo43 from "../Resourses/Logos/Kommune_2026_Logo.png"; // kommune kujalleq
+import logo42 from "../Resourses/Logos/GreenlandCopter_2026_Logo.jpg"; // greenland copter / Transparent
+import logo43 from "../Resourses/Logos/Kommune_2026_Logo.png"; // kommune kujalleq // Transparent
 
 //PDFS
 import pdf1 from "../Resourses/PDFs/2025_60N.pdf";

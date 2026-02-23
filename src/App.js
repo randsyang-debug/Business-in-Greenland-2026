@@ -50,7 +50,7 @@ class App extends Component {
             <h1>Welcome to PDAC {getYear()}</h1>
             <section className="program-description-section-single"> 
               <div className="program-description">
-                <h2>Greenland Magazine 2024 - 2025</h2>
+                <h2>Greenland Magazine 2025 - 2026</h2>
                 <img src={logo} alt="Greenland Magazine 2025-2026"/>
                 <MyButton
                   link="https://www.e-pages.dk/plb/168/"
