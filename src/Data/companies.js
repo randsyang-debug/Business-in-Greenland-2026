@@ -31,14 +31,14 @@ import logo31 from "../Resourses/Logos/2025_Cowi.png";
 import logo32 from "../Resourses/Logos/KNI_2026_Logo.png"; // KNI 
 import logo33 from "../Resourses/Logos/2025_ral-logo-red.png";
 import logo34 from "../Resourses/Logos/Kaya_2026_Logo.png"; // kaya partners 
-import logo35 from "../Resourses/Logos/Kalaallit_2026_Logo.jpg"; // kalaallit // transparent
+import logo35 from "../Resourses/Logos/Kalaallit_2026_Logo.png"; // kalaallit // transparent
 import logo36 from "../Resourses/Logos/2025_Greenland_Business_Association_(GE).png";
 import logo37 from "../Resourses/Logos/2025_Nalik_Venture.png";
 import logo38 from "../Resourses/Logos/2025_Tusass.png";
 import logo39 from "../Resourses/Logos/2025_VR_Travel.png";
 import logo40 from "../Resourses/Logos/Kirk_Larsen_2026_Logo.png"; // kirk larsen // transparent
 import logo41 from "../Resourses/Logos/2025_Sermeq_Helicopters_A_S.png";
-import logo42 from "../Resourses/Logos/GreenlandCopter_2026_Logo.jpg"; // greenland copter / Transparent
+import logo42 from "../Resourses/Logos/GreenlandCopter_2026_Logo.png"; // greenland copter / Transparent
 import logo43 from "../Resourses/Logos/Kommune_2026_Logo.png"; // kommune kujalleq // Transparent
 
 //PDFS
