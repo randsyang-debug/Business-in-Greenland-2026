@@ -142,7 +142,7 @@ export const companies = [
     website: "https://www.danskindustri.dk/english/",
     pdf: null,
     type: "withmail",
-    email: `emmo@di.dk;jhn@di.dk?subject=PDAC ${getYear()}`,
+    email: `emmo@di.dk?subject=PDAC ${getYear()}`,
     id: 7
   },
   {
