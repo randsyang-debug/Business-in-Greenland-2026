@@ -17,7 +17,7 @@ import logo16 from "../Resourses/Logos/BDO_2026_Logo.png"; // BDO update to new
 import logo17 from "../Resourses/Logos/2025_Lumina.png";
 import logo18 from "../Resourses/Logos/EMJ Atcon_2026_Logo.png";
 import logo19 from "../Resourses/Logos/2025_Pangaea.png";
-import logo20 from "../Resourses/Logos/POLOG_2026_Logo.jpg"; // polog // transparent 
+import logo20 from "../Resourses/Logos/POLOG_2026_Logo.png"; // polog // transparent 
 import logo21 from "../Resourses/Logos/Qeqertalik Business Council QBC_2026_Logo.png"; // qeqertalik business council
 import logo22 from "../Resourses/Logos/Boman Qujan_2026_Logo.png"; // qujan arctic pr net
 import logo24 from "../Resourses/Logos/2025_Gronlands_Banken.png"; 
